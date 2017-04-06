@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"grunt-babel",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "grunt-babel",
+    "description": "api documentation for [grunt-babel (v6.0.0)](https://github.com/babel/grunt-babel) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-babel.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-babel) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-babel.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-babel)",
     "devDependencies": {
-        "grunt-babel": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "grunt-babel": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-grunt-babel",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-grunt-babel",
+    "keywords": [
+        "documentation",
+        "grunt-babel"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_grunt_babel.js",
+    "name": "npmdoc-grunt-babel",
+    "nameAlias": "npmdoc_grunt_babel",
+    "nameOriginal": "npmdoc-grunt-babel",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-grunt-babel"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
