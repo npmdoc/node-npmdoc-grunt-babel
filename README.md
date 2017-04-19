@@ -1,9 +1,14 @@
-# api documentation for  [grunt-babel (v6.0.0)](https://github.com/babel/grunt-babel)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-babel.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-babel) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-babel.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-babel)
+# npmdoc-grunt-babel
+
+#### api documentation for  [grunt-babel (v6.0.0)](https://github.com/babel/grunt-babel)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-babel.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-babel) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-babel.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-babel)
+
 #### Use next generation JavaScript, today
 
-[![NPM](https://nodei.co/npm/grunt-babel.png?downloads=true)](https://www.npmjs.com/package/grunt-babel)
+[![NPM](https://nodei.co/npm/grunt-babel.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-babel)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-babel/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-babel_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-babel/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-babel/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-babel/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-babel/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-babel/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-babel/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -67,17 +71,14 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sebmck",
-            "email": "sebmck@gmail.com"
+            "name": "sebmck"
         },
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "grunt-babel",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/babel/grunt-babel.git"
@@ -93,16 +94,6 @@
     }
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-babel](#apidoc.module.grunt-babel)
-
-
-
-# <a name="apidoc.module.grunt-babel"></a>[module grunt-babel](#apidoc.module.grunt-babel)
 
 
 
