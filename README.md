@@ -1,6 +1,6 @@
 # npmdoc-grunt-babel
 
-#### api documentation for  [grunt-babel (v6.0.0)](https://github.com/babel/grunt-babel)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-babel.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-babel) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-babel.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-babel)
+#### basic api documentation for  [grunt-babel (v6.0.0)](https://github.com/babel/grunt-babel)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-babel.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-babel) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-babel.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-babel)
 
 #### Use next generation JavaScript, today
 
@@ -91,7 +91,8 @@
         "ignores": [
             "test/fixture.js"
         ]
-    }
+    },
+    "bin": {}
 }
 ```
 
